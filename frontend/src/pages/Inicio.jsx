@@ -5,11 +5,9 @@ import ContainerCards from "../components/cards/container/ContainerCards";
 const Inicio = () => {
   return (
     <>
-      <Banner />
-      <ContainerCards />
-
       <EventoDestacado />
-
+      <ContainerCards />
+      <Banner />
       <p>
         Solo pa q haga bulto xd Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Omnis repellendus molestiae ipsum impedit nostrum,
@@ -72,7 +70,6 @@ const Inicio = () => {
         <button className="btnsecundario">Botón secundario</button>
         <button className="btnicono">Con Icono</button>
       </div>
-      
     </>
   );
 };

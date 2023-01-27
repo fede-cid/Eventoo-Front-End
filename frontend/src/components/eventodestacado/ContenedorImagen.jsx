@@ -51,9 +51,7 @@ const ContenedorImagen = ({producto}) => {
       <p>{producto.descripcion}</p>
       <div>
         <a
-          style={{
-            border: '1px solid var(--text-color)'
-          }}
+
           className={`btnicono`}
           href=''>
           <span>Ver más</span>

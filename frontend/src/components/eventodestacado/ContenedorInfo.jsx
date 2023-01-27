@@ -51,9 +51,7 @@ const ContenedorInfo = ({producto}) => {
       <p>{producto.descripcion2}</p>
       <div>
         <a
-          style={{
-            border: '1px solid var(--text-color)'
-          }}
+
           className={`btnicono`}
           href=''>
           <span>Ver más</span>
