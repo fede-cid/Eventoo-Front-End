@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import Estilo from './EventoDestacado.module.css';
+import StylesEvent from './EventoDestacado.module.css';
 
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
@@ -39,7 +39,7 @@ const ContenedorImagen = ({producto}) => {
 
   return (  
       <motion.div 
-      className={Estilo.ContenedorInfo}
+      className={StylesEvent.ContenedorInfo}
       ref={ref}
       initial={{
         opacity: 0,
