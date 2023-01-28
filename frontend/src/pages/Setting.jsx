@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import SettingForm from '../components/settingForm/SettingForm';
 
 export default function Setting() {
   return (
-    <div>
-      soy un div
-    </div>
+    <>
+      <SettingForm/>
+    </>
   )
 }
