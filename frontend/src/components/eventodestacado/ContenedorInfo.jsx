@@ -54,7 +54,7 @@ const ContenedorInfo = ({producto}) => {
 
           className={`btnicono`}
           href=''>
-          <span>Ver más</span>
+          <span>DISFRUTA YA!</span>
           </a>
       </div>
     </motion.div>

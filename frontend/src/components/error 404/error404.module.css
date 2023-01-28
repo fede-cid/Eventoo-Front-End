@@ -1,14 +1,14 @@
 .Contenedor {
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+position: relative;
+top: 30%;
   background-color: var(--secondary-color);
-  height: 30px;
+
 }
 
 .ContenedorDestacado {
   width: 100%;
-  max-width: 1234px;
+
   margin: auto;
   padding: 0 0 10px 20px;
 }
@@ -27,18 +27,7 @@
 .ContenedorDetalles {
 
   display: flex;
-  margin-top: 3%;
-}
-
-.ContenedorImagen {
-  margin: 0 auto;
-}
-
-.ContenedorImagen img {
-  max-width: 350px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50px;
+  margin-top: 10%;
 }
 
 .ContenedorInfo {
@@ -76,15 +65,6 @@
     margin: 0;
   }
 
-  .ContenedorImagen {
-    flex: 1;
-    margin: unset;
-    margin-bottom: 15px;
-    margin-right: 30px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-  }
 
   .ContenedorInfo {
     flex: 1;
@@ -97,11 +77,6 @@
     max-width: 513px;
   }
 
-  .ContenedorImagen img {
-    max-width: 511px;
-    max-height: 460px;
-    border-radius: unset;
-  }
 
   .ContenedorDetalles {
     flex-direction: row;

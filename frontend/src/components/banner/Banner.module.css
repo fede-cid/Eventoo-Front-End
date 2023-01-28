@@ -1,24 +1,25 @@
 .ContenedorHero {
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  margin-top: 70px;
   height: 313px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/recursos/banner.jpg');
+  background:  url('/recursos/backGroundLanding.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-.ContenedorHero h2 {
-  padding: 0 20px;
+.ContenedorTex{
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.Text {
+  padding-top: 25px;
+  width: max-content;
   color: var(--white);
-  padding-top: 50px;
-  padding-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 33px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 60px;
 }
 
 .ContenedorHorario {
@@ -48,9 +49,18 @@
   line-height: 27px;
   text-align: right;
 }
+.Titulo {
+  font-family: 'roboto';
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 33px;
+  color: var(--accent-color);
+  flex-direction: row;
+  margin-top: 3%;
+}
 
 @media (min-width: 768px) {
-  .ContenedorHero h2 {
+  .text {
     padding-left: 105px;
   }
   .ContenedorHorario {
@@ -59,12 +69,8 @@
 }
 
 @media (min-width: 1024px) {
-  .ContenedorHero {
-    min-height: 528px;
-  }
-  .ContenedorHero h2 {
-    padding-top: 89px;
-    padding-bottom: 60px;
+
+  .text {
     font-size: 32px;
     line-height: 32px;
   }

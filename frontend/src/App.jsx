@@ -1,37 +1,39 @@
 //React-Router-Dom
-import {Routes, Route  } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
 
 // Estilos
-import '../styles/index.css'
+import "../styles/index.css";
 
 //Paginas
-import Inicio from './pages/Inicio'
-import Productos from './pages/Productos'
-import Restaurante from './pages/Restaurante'
-import Carrito from './pages/Carrito'
-import Checkout from './pages/Checkout'
-
+import Inicio from "./pages/Inicio";
 //Componentes
-import Navbar from './components/navegacion/Navbar'
-
+import Setting from "./pages/Setting";
+import CreateEvent from "./pages/CreateEvent";
+import AboutUs from "./pages/AboutUs";
+import FAQ from "./pages/FAQ";
+import Help from "./pages/Help";
+import Contact from "./pages/Contact";
 // Context Producto
-import ProductoState from './context/producto/ProductoState'
-import Setting from './pages/Setting'
+import ProductoState from "./context/producto/ProductoState";
+import Error from "./pages/Error";
+
+
 
 function App() {
   return (
     <ProductoState>
-      <Navbar />
       <Routes>
-        <Route path='/' element={ <Inicio/> } />
-        <Route path='/Productos' element={ <Productos/> } />
-        <Route path='/restaurante' element={ <Restaurante/> } />
-        <Route path='/carrito' element={ <Carrito/> } />
-        <Route path='/checkout' element={ <Checkout/> } />
-        <Route path='/setting' element={ <Setting/> } />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/create-event" element={<CreateEvent />} />
+        <Route path="/setting" element={<Setting />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/Help" element={<Help />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />}></Route>
       </Routes>
     </ProductoState>
-  )
+  );
 }
 
 export default App;

@@ -54,7 +54,7 @@ const ContenedorImagen = ({producto}) => {
 
           className={`btnicono`}
           href=''>
-          <span>Ver más</span>
+          <span>CREAR</span>
           </a>
       </div>
     </motion.div>

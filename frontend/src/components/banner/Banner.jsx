@@ -1,14 +1,19 @@
-import Estilo from './Banner.module.css';
+import Estilo from "./Banner.module.css";
 
 const Banner = () => {
-  return (  
+  return (
     <div className={Estilo.ContenedorHero}>
-      <h2></h2>
-      <div className={Estilo.ContenedorHorario}>
-        
+      <div className={Estilo.ContenedorTex}>
+        <h2 className={Estilo.Text}>
+          Bievenidos a{" "}
+          <h1 className={Estilo.Titulo}>
+            EVEN<b>TOO</b>
+          </h1>
+        </h2>
+        <h2 className={Estilo.Text}>donde tu eres el protagonista.</h2>
       </div>
     </div>
   );
-}
- 
+};
+
 export default Banner;

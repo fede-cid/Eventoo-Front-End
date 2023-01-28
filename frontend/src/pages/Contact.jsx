@@ -1,8 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
-
 import Navbar from "../components/navegacion/Navbar";
-export default function Setting() {
+function Contact() {
   return (
     <div>
       <Navbar />
@@ -10,3 +9,5 @@ export default function Setting() {
     </div>
   );
 }
+
+export default Contact;
