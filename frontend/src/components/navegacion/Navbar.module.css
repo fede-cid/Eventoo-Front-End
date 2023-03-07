@@ -31,6 +31,7 @@
   position: fixed;
   left: 15px;
   top: 15px;
+  
 }
 .MenuItem{
   color: var(  --text-color);
