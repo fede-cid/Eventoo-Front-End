@@ -5,12 +5,11 @@ const Banner = () => {
     <div className={Estilo.ContenedorHero}>
       <div className={Estilo.ContenedorTex}>
         <h2 className={Estilo.Text}>
-          Bievenidos a{" "}
-          <h1 className={Estilo.Titulo}>
-            EVEN<b>TOO</b>
+          Welcome to <h1 className={Estilo.Titulo}>
+            My<b>Portfolio</b>
           </h1>
         </h2>
-        <h2 className={Estilo.Text}>donde tu eres el protagonista.</h2>
+        <h2 className={Estilo.Text}>Front End Developer</h2>
       </div>
     </div>
   );

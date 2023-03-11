@@ -18,6 +18,15 @@
   padding: 0 3rem;
   margin-top: 30px;
 }
+.proyects {
+  color: #314535;
+  padding: 0 3rem;
+  display: grid;
+  gap: 7px;
+}
+.url{
+  text-decoration: none;
+}
 
 .imgCard {
   width: 21.5rem;

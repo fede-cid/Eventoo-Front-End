@@ -1,36 +1,46 @@
 import CardProductos from "../cardproductos/CardProductos";
-import style from './ContainerCards.module.css';
-import IMG from '../../../../public/recursos/metallica.jpg';
-import IMG2 from '../../../../public/recursos/event1.jpg';
+import CardCarousel from "./carrucel/CarrucelMUI";
+import style from "./ContainerCards.module.css";
+
 
 const ContainerCards = () => {
-  const data = {
-    titulo: '',
-    precio: '$2.500',
-    img: IMG,
-    img2: IMG2,
-  }
+  const cards = [
+    {
+      id: 1,
+      title: "Eventoo",
+      description: "https://www.eventoo.com.ar/",
+      imageUrl: "../../../../public/recursos/Eventoo.png",
+    },
+    {
+      id: 2,
+      title: "Pokemons Wiki",
+      description: "https://quiet-monstera-a80bcc.netlify.app/home",
+      imageUrl: "../../../../public/recursos/PokemonWiki.png",
+    },
+  ];
   return (
     <>
-      <div className={style.conteiner}>
+      {/* <div className={style.conteiner}>
         <div className={style.title}>
-          <h1>Eventos mas populares </h1>
+          <h2>My Proyect's </h2>
         </div>
         <div className={style.containerCards}>
-          <div className={style.imgCard}>
-            <img src={data.img2}/>
-          </div>
-          <div className={style.imgCard}>
-            <img src={data.img2}/>
-          </div>
-          <div className={style.imgCard}>
-            <img src={data.img2}/>
-          </div>
+          {data.map((e) => (
+            <>
+              <div className={style.proyects}>
+                <a className={style.url} href={`${e.url}`} target="_blank"><h3>{e.titulo}</h3></a>
+                <div className={style.imgCard}>
+                  <img src={e.img2} />
+                </div>
+              </div>
+            </>
+          ))}
         </div>
       </div>
       <div className={style.conteiner}>
-        <div className={style.title}>
-          <h1>Mas Eventos</h1>
+        <div className={style.title}> */}
+        <CardCarousel cards={cards}/>
+          {/* <h1>Mas Eventos</h1>
         </div>
         <div className={style.containerCards}>
           <div>
@@ -41,11 +51,11 @@ const ContainerCards = () => {
           </div>
           <div>
             <CardProductos props={data}/>
-          </div>
-        </div>
-      </div>
+          </div> */}
+        {/* </div>
+      </div> */}
     </>
-  )
-}
+  );
+};
 
-export default ContainerCards
+export default ContainerCards;

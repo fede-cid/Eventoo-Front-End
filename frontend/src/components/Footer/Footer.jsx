@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className={Style.mainFooter}>
       <h1 className={Style.Titulo}>
-        EVEN<b>TOO</b>
+      <b>F</b>ederico<b>C</b>id
       </h1>
       <div>
         <motion.ul className={Style.MenuItem}>

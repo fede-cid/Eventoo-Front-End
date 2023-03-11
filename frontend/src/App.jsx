@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 // Context Producto
 import ProductoState from "./context/producto/ProductoState";
 import Error from "./pages/Error";
+import Proyects from "./pages/Proyects";
 
 
 
@@ -24,12 +25,12 @@ function App() {
     <ProductoState>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/create-event" element={<CreateEvent />} />
+        <Route path="/contact" element={<CreateEvent />} />
         <Route path="/setting" element={<Setting />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/Help" element={<Help />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/proyects" element={<Proyects />} />
         <Route path="*" element={<Error />}></Route>
       </Routes>
     </ProductoState>

@@ -53,7 +53,7 @@ const ContenedorInfo = ({producto}) => {
         <a
 
           className={`btnicono`}
-          href='/events'>
+          href='/proyects'>
           <span>DISFRUTA YA!</span>
           </a>
       </div>

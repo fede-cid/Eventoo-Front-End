@@ -11,19 +11,19 @@ const Navbar = () => {
         <Link to="/">
           {" "}
           <span className={Estilo.Titulo}>
-            EVEN<b>TOO</b>
+          <b>F</b>ederico<b>C</b>id
           </span>
         </Link>
         <div className={Estilo.MenuItem}>
       
-            <button className={Estilo.MenuItem} onClick={()=>navigate("/create-event")}>Create Event</button>
+            <button className={Estilo.MenuItem} onClick={()=>navigate("/contact")}>Contact</button>
       
           
-            <button className={Estilo.MenuItem} onClick={undefined}>language</button>
+            <button className={Estilo.MenuItem} onClick={()=>navigate("/proyects")}>Proyect's</button>
          
         </div>
       </nav>
-      <Menu />
+      {/* <Menu /> */}
     </header>
   );
 };
