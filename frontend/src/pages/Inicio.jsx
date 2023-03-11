@@ -9,6 +9,7 @@ const Inicio = () => {
     <>
       <Banner />
       <EventoDestacado />
+
       <Footer />
 
     </>

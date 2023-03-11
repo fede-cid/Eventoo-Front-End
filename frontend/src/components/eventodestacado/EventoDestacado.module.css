@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   height: 30px;
 }
 

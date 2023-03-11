@@ -11,7 +11,7 @@ const Banner = () => {
         </h2>
         <h2 className={Estilo.Text}>Front End Developer</h2>
       </div>
-      <div className={Estilo.Me}>hola</div>
+      <div className={Estilo.Me}></div>
     </div>
   );
 };
