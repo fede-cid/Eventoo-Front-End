@@ -54,7 +54,7 @@ const ContenedorImagen = ({producto}) => {
 
           className={`btnicono`}
           href='/contact'>
-          <span>CREAR</span>
+          <span>Contact</span>
           </a>
       </div>
     </motion.div>

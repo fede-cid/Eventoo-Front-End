@@ -1,7 +1,7 @@
 import Styles from "./Menu.module.css";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import User from "../../../public/recursos/event1.jpg";
+
 import { FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const Menu = () => {
             exit={{ height: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <img src={User} alt="user photo" className={Styles.menuPhoto} onClick={() => setIsOpen(!isOpen)}/>
+            <img  alt="user photo" className={Styles.menuPhoto} onClick={() => setIsOpen(!isOpen)}/>
 
             <div className={Styles.menuName}>primer usuario</div>
             <p className={Styles.menuEmail}>fede.cid.96@gmail.com</p>
