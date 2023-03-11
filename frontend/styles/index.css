@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #007F80;
+  --primary-color: #7e098d;
   --secondary-color: #FDF7F4;
   --text-color: #1E1E1E;
   --white-apoyo: #F6EBEB;
   --white: #FFFFFF;
-  --accent-color: #005D5E;
-  --secondary-accent: #bc3f00cc;
+  --accent-color: #5e005e;
+  --secondary-accent: #bc8a00cc;
   /* --btn-accent: #5C5E4A;
   --btn: #5C5E4A; */
 }
@@ -68,7 +68,7 @@ a:hover {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  background-image: linear-gradient(to right,  #DF8354 0%, #D76D37 40%, #BC4000 100%);
+  background-image: linear-gradient(to right,  #c49d33cc 0%, #be8f0dcc 40%, #bc8a00cc 100%);
 }
 
 

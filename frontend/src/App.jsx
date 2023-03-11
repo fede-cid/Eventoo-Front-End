@@ -25,7 +25,7 @@ function App() {
     <ProductoState>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/contact" element={<CreateEvent />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/setting" element={<Setting />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/faq" element={<FAQ />} />
